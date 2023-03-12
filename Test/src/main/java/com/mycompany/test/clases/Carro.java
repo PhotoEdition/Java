@@ -9,37 +9,37 @@ package com.mycompany.test.clases;
  * @author samue
  */
 public class Carro {
-    private String color;
-    private String marca;
+    private Color color;
+    private Marca marca;
     private String tipoTraccion;
-    private double velicidadMaxima;
+    private double velocidadMaxima;
     private String placa;
 
     public Carro() {
     }
 
-    public Carro(String color, String marca, String tipoTraccion, double velicidadMaxima, String placa) {
+    public Carro(Color color, Marca marca, String tipoTraccion, double velocidadMaxima, String placa) {
         this.color = color;
         this.marca = marca;
         this.tipoTraccion = tipoTraccion;
-        this.velicidadMaxima = velicidadMaxima;
+        this.velocidadMaxima = velocidadMaxima;
         this.placa = placa;
     }
     
 
-    public String getColor() {
+    public Color getColor() {
         return color;
     }
 
-    public void setColor(String color) {
+    public void setColor(Color color) {
         this.color = color;
     }
 
-    public String getMarca() {
+    public Marca getMarca() {
         return marca;
     }
 
-    public void setMarca(String marca) {
+    public void setMarca(Marca marca) {
         this.marca = marca;
     }
 
@@ -51,12 +51,12 @@ public class Carro {
         this.tipoTraccion = tipoTraccion;
     }
 
-    public double getVelicidadMaxima() {
-        return velicidadMaxima;
+    public double getVelocidadMaxima() {
+        return velocidadMaxima;
     }
 
-    public void setVelicidadMaxima(double velicidadMaxima) {
-        this.velicidadMaxima = velicidadMaxima;
+    public void setVelocidadMaxima(double velocidadMaxima) {
+        this.velocidadMaxima = velocidadMaxima;
     }
 
     public String getPlaca() {
